@@ -1,0 +1,56 @@
+/*
+** filename: global.css
+** description: PHP範例網路應用程式基礎樣式表
+** author: Brian Tao / brian.tao@informc.com
+** modification history:
+**** 2017.07.20: created
+*/
+body{
+  background-color: rgb(255, 255, 255);
+}
+.content{
+  margin: 10px auto;
+  width: 55%;
+}
+.loginContent{
+  margin: 10% auto;
+  width: 22%;
+  padding: 10px;
+  border: solid #43484c;
+  border-radius: 12px;
+}
+.salaryTable{
+  width: 100%;
+  height: 40%;
+  overflow:auto;
+}
+thead tr th {
+  position:sticky;
+  top:0; 
+ }
+th{
+  z-index:2;
+  background-color:lightblue;
+ }
+.ActionGroup{
+    width: 475px;
+    display: flex;
+    justify-content: space-between;
+ }
+.loginButton{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+ }
+.salaryContent{
+  padding-top: 10px;
+  border-top-style: solid;
+  border-top-color: rgb(67, 72, 76);
+  display:none;
+ }
+.informaiton{
+  padding: 15px;
+  border: solid #43484c;
+  border-radius: 12px;
+  margin-bottom: 10px;
+ }
